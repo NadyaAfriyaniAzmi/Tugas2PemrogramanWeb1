@@ -1,0 +1,174 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 0;
+    top: 0;
+    padding: 10px 10%;
+    background-color: palevioletred;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+ nav ul li{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(255, 237, 223);
+    text-decoration: none;
+    padding: 5px ;
+} 
+
+nav ul li:hover{
+    background-color: white;
+    color: black;
+    transition: 0,5s;
+    border-radius: 5px;
+}
+.log-btn input{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(255, 237, 223); 
+    text-decoration: none;
+    padding: 1px ;
+    border: none;
+    background-color: transparent;
+    font-family: 'Times New Roman';
+} 
+.log-btn input:hover{
+    background-color: white;
+    color: black;
+    transition: 0,5s;
+    border-radius: 5px;
+    font-family: 'Times New Roman';
+}
+.bgrnd{
+    display: flex;
+}
+.bgrnd ul li{
+    display: block;
+    font-size: 20px;
+    color: rgb(255, 237, 223);
+}s
+#about{
+    width: 87%;
+    padding: 100px 100px;
+    background: linear-gradient(rgb(255, 237, 223), white );
+    color: palevioletred;
+}
+#about h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(215, 141, 165);
+}
+#border h1{
+    padding: 20px;
+    text-align: center;
+}
+#border p{
+    text-align: justify;
+    font-size: 20px;
+}
+#border{
+    text-align: center;
+    color: palevioletred;
+    padding: 40px 70px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(255, 237, 214);
+    margin: -10px 90px;
+}
+.data{
+    padding: 8% 30%;
+    background: linear-gradient(rgb(255, 237, 223), white );
+}
+.data h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(215, 141, 165);
+}
+.tabel{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+.tabel thead{
+    background-color: rgb(215, 141, 165);
+}
+.tabel tr th{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: rgb(255, 237, 223);
+    padding: 20px;
+    vertical-align: top;
+    border: 1px solid rgb(112, 49, 69);
+}
+.tabel tbody tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: white;
+    background-color:  palevioletred;
+    padding: 12px;
+    border: 1px solid rgb(112, 49, 69);
+}
+.form{
+    padding: 8% 30%;
+    background: linear-gradient(rgb(255, 237, 223), white );
+}
+.form h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(215, 141, 165);
+}
+.tabel2{
+        width: 100%;
+        border-collapse: collapse;
+       background-color: palevioletred;;
+}
+.gambar{
+    display: block;
+    margin-top: -150px;
+    margin-left: 700pt;
+    padding: 20px;
+}
+   
+  label {
+    font-size: 15pt;
+    color: #555;
+  }
+   
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    padding: 8px;
+    width: 95%;
+    background: palevioletred;
+    border-radius: 30px;
+    font-size: 10pt;
+    margin: 6px 0px;
+  }
+   
+  .tombol {
+    background: palevioletred;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 8px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
